@@ -1,2 +1,0 @@
-# quizoster
-Created with CodeSandbox
