@@ -8,11 +8,19 @@ export default class ContentBox extends Component {
     super(props);
   }
 
+  handleSelectedOption = e => {
+    this.props.selectedOption(e);
+  };
+
   render() {
+    console.log("this.props: ", this.props);
     return (
       <div className="content-box-main-div">
-        <Question question={this.props.question} />
-        <QuestionOptions questionOptions={this.props.questionOptions} />
+        <Question question={this.props.questionData.question} />
+        <QuestionOptions
+          questionOptions={this.props.questionOptions}
+          onSelectOption={this.handleSelectedOption}
+        />
       </div>
     );
   }
