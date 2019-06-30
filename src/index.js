@@ -1,13 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import AppBar from "./components/appBar/appBar.component";
+import QuizBody from "./components/quizBody";
+
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello </h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <div className="Main-div">
+        <AppBar />
+        <QuizBody />
+        {/* <QuizBody/>
+       <Footer/>  */}
+      </div>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+.question-options-list-main-div {
+  background-color: silver;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0px;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+.question-options-list-main-div li:hover {
+  background-color: cornsilk;
+  color: gray;
+}
