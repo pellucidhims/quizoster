@@ -1,0 +1,42 @@
+.appbar-main-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: burlywood;
+  position: sticky;
+  top: 0px;
+}
+
+.appbar-heading-div {
+  color: whitesmoke;
+}
+
+.profile-main-div {
+  cursor: pointer;
+}
+
+.profile-menu-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: darkgray;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 4%;
+}
+
+.profile-menu-main-div > div > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.profile-menu-main-div a:hover {
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
