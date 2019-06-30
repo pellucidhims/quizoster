@@ -6,7 +6,6 @@ import ContentBox from "./quizArena/mainContentBox";
 import { questionBank } from "../../constants/dummyQuestionBank";
 
 import "./quizBody.css";
-import { element } from "prop-types";
 
 const THRESHOLD = 10;
 
@@ -58,6 +57,7 @@ export default class QuizBody extends Component {
         questionData={this.state.currentQuestion}
         questionOptions={options}
         selectedOption={this.handleSelectedOption}
+
       />
     );
   };
